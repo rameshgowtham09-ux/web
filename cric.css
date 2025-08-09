@@ -1,0 +1,12 @@
+h1{
+    background-color: rgb(243, 224, 200);
+}
+body{
+    background-color:#ef6b6f;
+    box-shadow: rgba(0,0,0,0.06) inset;
+}
+@keyframes shadow-pulse{
+    0% { transform: translateX(-50%) scale(1); opacity:0.28; }
+    50% { transform: translateX(-50%) scale(1.06); opacity:0.34; }
+    100%{ transform: translateX(-50%) scale(1); opacity:0.28; }
+  }
